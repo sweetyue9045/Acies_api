@@ -7,8 +7,9 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 sqlalchemy = "*"
-pydantic = "*"
 passlib = "*"
+pydantic = {extras = ["email"], version = "*"}
+python-multipart = "*"
 
 [dev-packages]
 
