@@ -5,11 +5,15 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
-sqlalchemy = "*"
-passlib = "*"
-pydantic = {extras = ["email"], version = "*"}
-python-multipart = "*"
 uvicorn = "*"
+sqlalchemy = "*"
+pydantic = {extras = ["email"], version = "*"}
+gunicorn = "*"
+email-validator = "*"
+bcrypt = "*"
+passlib = "*"
+python-multipart = "*"
+
 
 [dev-packages]
 
