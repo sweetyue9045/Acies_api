@@ -5,11 +5,11 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
-uvicorn = "*"
 sqlalchemy = "*"
 passlib = "*"
 pydantic = {extras = ["email"], version = "*"}
 python-multipart = "*"
+uvicorn = "*"
 
 [dev-packages]
 
