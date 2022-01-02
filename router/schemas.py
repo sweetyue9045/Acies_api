@@ -64,6 +64,12 @@ class UpdateRequestSchema(BaseModel):
     editer: str
     edit_time: str
 
-
 class UpdateResponseSchema(UpdateRequestSchema):
+    id = int
+
+
+class PublishRequestSchema(BaseModel):
+    ispublish = False
+
+class PublishResponseSchema(PublishRequestSchema):
     id = int
